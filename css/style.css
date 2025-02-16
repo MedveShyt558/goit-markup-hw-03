@@ -188,6 +188,7 @@ a {
 
 .adv-list {
     display: flex;
+    gap: 24px;
 }
 
 .adv-list-link {
