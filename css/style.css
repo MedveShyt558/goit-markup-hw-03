@@ -247,6 +247,30 @@ a {
         text-align: center;
 }
 
+.portfolio {
+    padding-top: 120px;
+}
+
+.works-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.works-list-item {
+    width: calc((100% - 48px) / 3);
+}
+
+.app-name {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.app-name > .title-tree {
+    margin-bottom: 8px;
+}
 
 .title-two {
         font-weight: 700;
